@@ -7,7 +7,7 @@
 
 import os.path
 import subprocess
-import shmutil
+import shutil
 import os
  
 class PushdContext:
