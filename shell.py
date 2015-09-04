@@ -46,3 +46,6 @@ def rm_rf(path):
         shutil.rmtree(path)
     elif os.path.exists(path):
         os.remove(path)
+
+def logger(msg):
+    call(('logger',msg))
