@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from distutils.core import setup
+from setuptools import setup
 
 setup(name='shell.py',
-      version='1.0.2',
+      version='1.0.3',
       py_modules=['shell'],
       )
