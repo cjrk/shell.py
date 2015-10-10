@@ -35,10 +35,10 @@ def pushd(dirname):
 
 
 def call(commandList):
-	return subprocess.check_call(commandList)
+	return subprocess.check_output(commandList)
 
 def shell(shellCommand):
-	return subprocess.check_call(shellCommand, shell=True)
+	return subprocess.check_output(shellCommand, shell=True)
 
 # http://stackoverflow.com/questions/814167/easiest-way-to-rm-rf-in-python
 def rm_rf(path):
